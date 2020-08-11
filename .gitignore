@@ -3,3 +3,6 @@ proyecto/src/*.log
 proyecto/src/local_settings.py
 proyecto/src/db.sqlite3
 proyecto/src/db.sqlite3-journal
+
+# Database connection
+proyecto/src/plataforma/settings.py
