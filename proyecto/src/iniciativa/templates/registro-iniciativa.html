@@ -1,0 +1,15 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Registro de una nueva iniciativa</h2>
+<a href="/">Volver atrás</a>
+
+<form method="POST" action="."> {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Send</button>
+</form>
+
+{% endblock %}
+
